@@ -1,0 +1,21 @@
+SELECT
+CAST(FirstName AS VARCHAR)
+FROM Person.Person
+
+SELECT
+11/4,
+CAST(11 AS FLOAT)/CAST(4 AS FLOAT),
+11.0/4.0
+
+SELECT
+CAST(FirstName AS VARCHAR(3))
+FROM Person.Person
+
+SELECT
+CAST(Size AS INT)
+FROM Production.Product
+
+SELECT
+CAST(Size AS INT)
+FROM Production.Product
+WHERE ISNUMERIC(Size) = 1
